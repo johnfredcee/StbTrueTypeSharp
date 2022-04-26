@@ -116,9 +116,9 @@ namespace StbTrueTypeSharp
 			return info;
 		}
 
-		public static int stbtt_InitFont(stbtt_fontinfo info, byte* data, int offset)
-		{
-			return stbtt_InitFont_internal(info, data, offset);
-		}
+		// public static int stbtt_InitFont(stbtt_fontinfo info, byte* data, int offset)
+		// {
+			// return stbtt_InitFont_internal(info, data, offset);
+		// }
 	}
 }
