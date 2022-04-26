@@ -1,4 +1,4 @@
 dotnet --version
-dotnet restore StbTrueTypeSharp.csproj
-dotnet build StbTrueTypeSharp.csproj
+dotnet restore src/StbTrueTypeSharp.csproj
+dotnet build src/StbTrueTypeSharp.csproj
 dotnet pack --include-source src/StbTrueTypeSharp.csproj
